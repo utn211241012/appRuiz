@@ -1,5 +1,7 @@
 package com.Ferreira.Huerta.Luis.Angel.org.Controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -24,6 +26,6 @@ public class HomeController {
 		List<Categoria> catego = CategoriasServceImp.ObtenerTodas();
 		model.addAttribute("vacantes", lista);
 		model.addAttribute("categorias", catego);
-		return "/home";
+		return "home";
 	}
 }
