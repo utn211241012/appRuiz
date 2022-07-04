@@ -36,14 +36,14 @@ public class VacantesServceImp implements IntVacantes {
 			Categoria cate = new Categoria();
 			cate.setId(1);
 			cate.setNombre("Informatica");
-			cate.setDescripcion("");
+			cate.setDescripcion("Especialidad en sistemas computacionales");
 			
 			v.setCategoria(cate);
 			
 			Vacante v1 = new Vacante();
 			v1.setId(2);
-			v1.setNombre(" Web Desarrollador");
-			v1.setDescripcion("Desarrollo de apps mediante lenguajes de programacion");
+			v1.setNombre("Analista");
+			v1.setDescripcion("Analisis y Seguridad de la informacion");
 			v1.setFecha(LocalDate.of(1998, 02, 05));
 			v1.setSalario(5000.00);
 			v1.setDestacado(0);
@@ -52,14 +52,14 @@ public class VacantesServceImp implements IntVacantes {
 			
 			Categoria cate1 = new Categoria();
 			cate1.setId(2);
-			cate1.setNombre("Informatica");
-			cate1.setDescripcion("Especialidad en sistemas computacionales");
+			cate1.setNombre("Ciber-Seguridad");
+			cate1.setDescripcion("Proteccion de la informacion");
 			
 			v1.setCategoria(cate1);
 			Vacante v2 = new Vacante();
 			v2.setId(3);
-			v2.setNombre("Ciber-Seguridad");
-			v2.setDescripcion(" Proteccion de la informacion");
+			v2.setNombre("AutoMotriz");
+			v2.setDescripcion(" Diseño de autos");
 			v2.setFecha(LocalDate.of(1998, 02, 05));
 			v2.setSalario(5000.00);
 			v2.setDestacado(1);
@@ -69,7 +69,7 @@ public class VacantesServceImp implements IntVacantes {
 			Categoria cate3 = new Categoria();
 			cate3.setId(3);
 			cate3.setNombre("Automotriz");
-			cate3.setDescripcion("Diseño de autos");
+			cate3.setDescripcion("Diseño de vehiculos");
 			
 			v2.setCategoria(cate3);
 			
