@@ -52,14 +52,14 @@ public class VacantesServceImp implements IntVacantes {
 			
 			Categoria cate1 = new Categoria();
 			cate1.setId(2);
-			cate1.setNombre("TICS");
-			cate1.setDescripcion("Relaionado con Infomratica,telecomunicacion,iot");
+			cate1.setNombre("Informatica");
+			cate1.setDescripcion("Especialidad en sistemas computacionales");
 			
 			v1.setCategoria(cate1);
 			Vacante v2 = new Vacante();
 			v2.setId(3);
-			v2.setNombre(" Seguridad");
-			v2.setDescripcion(" Relaionado con la proteccion");
+			v2.setNombre("Ciber-Seguridad");
+			v2.setDescripcion(" Proteccion de la informacion");
 			v2.setFecha(LocalDate.of(1998, 02, 05));
 			v2.setSalario(5000.00);
 			v2.setDestacado(1);
@@ -69,7 +69,7 @@ public class VacantesServceImp implements IntVacantes {
 			Categoria cate3 = new Categoria();
 			cate3.setId(3);
 			cate3.setNombre("Automotriz");
-			cate3.setDescripcion("Relaionado con diseño de autos,mecanica,etc");
+			cate3.setDescripcion("Diseño de autos");
 			
 			v2.setCategoria(cate3);
 			
