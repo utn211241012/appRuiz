@@ -26,6 +26,6 @@ public class HomeController {
 		List<Categoria> catego = CategoriasServceImp.ObtenerTodas();
 		model.addAttribute("vacantes", lista);
 		model.addAttribute("categorias", catego);
-		return "/home";
+		return "home";
 	}
 }
