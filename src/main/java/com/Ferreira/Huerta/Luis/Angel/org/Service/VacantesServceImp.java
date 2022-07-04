@@ -35,8 +35,8 @@ public class VacantesServceImp implements IntVacantes {
 			
 			Categoria cate = new Categoria();
 			cate.setId(1);
-			cate.setNombre("TICS");
-			cate.setDescripcion("Relaionado con Infomratica,telecomunicacion,iot");
+			cate.setNombre("Informatica");
+			cate.setDescripcion("");
 			
 			v.setCategoria(cate);
 			
